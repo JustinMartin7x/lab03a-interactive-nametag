@@ -8,7 +8,7 @@ button.addEventListener('click', () => {
 
     myname.textContent = userInput;
 
-});
+})
 
 const main = document.getElementById ('main')
 const blueButton = document.getElementById ('blueButton')
@@ -33,7 +33,7 @@ grayButton.addEventListener('click', () => {
     main.style.background = 'gray'
 
 })
-pinkButton.addEventListener('click' () => {
+pinkButton.addEventListener('click', () => {
 
     main.style.background = 'pink'
 
